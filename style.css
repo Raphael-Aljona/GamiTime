@@ -48,20 +48,65 @@ header img {
     color:white;
     text-decoration: underline transparent;
 
+    transition: text-decoration 500ms;
 }
 
+.menu a:hover {
+    text-decoration: underline;
+}
 
 /* Seção inicial */
 
 #inicial {
     height: 100vh;
-    
-    
-    background-image: linear-gradient(90deg, rgba(34, 1, 111, 0.8)0%, rgba(34, 1, 111, 0.8) 100%) ,url(img/background.svg);
+
+    background-color: rgba(34, 1, 111, 0.80); 
+    background-image: linear-gradient(90deg, rgba(34, 1, 111, 0.8)0%, rgba(34, 1, 111, 0.8) 0%) ,url(img/background.svg);
     background-repeat: no-repeat; 
+    background-size: 750px;
+    
+    
 }
 
 #inicial .container-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    /* Perguntar se está maneira está correta. */
+    padding: 150px 0 0 700px;
+    border: none;
+    
+    font-size: 40px;
+    font-family: 'Anton';
+
+    color: white;
 
 }
+
+#inicial button {
+
+    margin-top: 10px;
+    
+    border: none;
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+
+    background-color: #4603DE;
+    
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Anton';
+
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+
+#inicial button:hover{
+    background-color:#2D0191;
+}
+
 
