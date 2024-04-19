@@ -57,25 +57,29 @@ header img {
 
 /* Seção inicial */
 
+.texto-banner {
+    width: 500px;
+}
 #inicial {
     height: 100vh;
 
     background-color: rgba(34, 1, 111, 0.80); 
     background-image: linear-gradient(90deg, rgba(34, 1, 111, 0.8)0%, rgba(34, 1, 111, 0.8) 0%) ,url(img/background.svg);
     background-repeat: no-repeat; 
-    background-size: 750px;
+    background-size: 752px;
     
     
 }
 
 #inicial .container-grid {
+    height: 100%;
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: flex-end;
+    
 
-    /* Perguntar se está maneira está correta. */
-    padding: 150px 0 0 700px;
+    
     border: none;
     
     font-size: 40px;
@@ -108,5 +112,48 @@ header img {
 #inicial button:hover{
     background-color:#2D0191;
 }
+
+/* Seção Sobre */
+#sobre {
+    background-color: #D8DBE2;
+    background-size: 100%;
+    
+}
+
+.bordas-sobre {
+    border-right: solid 3px #000;
+    border-left: solid 3px #000;
+}
+
+#sobre .container-grid{
+
+    height: 100vh;
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+    font-family: 'Anton';
+
+    text-align: center;
+    
+}
+
+#sobre p {
+    font-family: 'Open Sans';
+    font-size: 25px;
+
+    text-align: left;
+    padding: 8px;
+    padding-top: 30px;
+}
+
+
 
 
