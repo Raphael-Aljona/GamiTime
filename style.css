@@ -123,6 +123,8 @@ header img {
 .bordas-sobre {
     border-right: solid 3px #000;
     border-left: solid 3px #000;
+
+    height: 100%;
 }
 
 #sobre .container-grid{
@@ -145,15 +147,19 @@ h2{
     
 }
 
+#sobre h2 {
+    padding: 30px
+}
+
 #sobre p {
     font-family: 'Open Sans';
     font-size: 25px;
 
     text-align: left;
-    padding: 8px;
-    padding-top: 30px;
+    padding: 15px 0 15px 30px;
+    
 }
 
-
+/* Seção Cases */
 
 
