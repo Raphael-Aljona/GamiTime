@@ -218,9 +218,94 @@ h2{
     text-align: left;
 }
 
+/* Seção contatos */
 
 
 
+#contatos   {
+    height: 100vh;
+    background-color: #D8DBE2;
 
+}
 
+#contatos img{
+    height: 500px;
+
+}
+
+#contatos .container-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+#contatos h2 {
+    display: flex;
+    align-items: left;
+}
+
+#contatos .contate-nos{
+    height: 600px;
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+
+    font-family: 'Open Sans';
+    font-size: 23px;
+    
+    color:black;
+
+}
+
+.input p {
+    font-family: 'Open Sans';
+    font-size: 23px;
+    
+    color:black;
+}
+
+.input input {
+    border-radius: 15px;
+    border: #22016F solid 2px;
+    
+    font-size: 23px;
+    font-family: 'Open Sans';
+
+    height: 40px;
+    width: 100%;
+
+    text-indent: 12px;
+    
+   background-color: transparent;
+   color: black;
+}
+
+#contatos button {
+    margin-top: 10px;
+    
+    border: none;
+    height: 60px;
+    width: 50%;
+    border-radius: 20px;
+
+    background-color: #4603DE;
+    
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Anton';
+
+    cursor: pointer;
+    transition: background-color 500ms;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#contatos button:hover{
+    background-color:#2D0191;
+}
 
