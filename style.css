@@ -1,3 +1,9 @@
+:root {
+    --roxo-gamifica: #47208b;
+    --laranja-gamifica: #f06638;
+    --roxo-time: #22016fcc;
+}
+
 
 *{
     margin: 0;
@@ -42,7 +48,7 @@ header img {
 .menu a {
     padding-top: 15px;  
 
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Open Sans';
 
     color:white;
@@ -107,6 +113,7 @@ header img {
 
     cursor: pointer;
     transition: background-color 500ms;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #inicial button:hover{
@@ -116,7 +123,7 @@ header img {
 /* Seção Sobre */
 #sobre {
     background-color: #D8DBE2;
-    background-size: 100%;
+    
     
 }
 
@@ -144,7 +151,7 @@ h2{
     font-family: 'Anton';
 
     text-align: center;
-    
+    letter-spacing: 3px;
 }
 
 #sobre h2 {
@@ -160,6 +167,60 @@ h2{
     
 }
 
+
+
 /* Seção Cases */
+
+
+#cases {
+    background-color: var(--roxo-time);
+    text-align: center;
+    
+    height: 100vh;
+}
+
+#cases h2 {
+    padding-top: 50px;
+    color: white;
+}
+
+.container-cards{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 60px;
+}
+
+.card img{
+    height: 350px;
+    width: 300px;
+}
+
+.card p {  
+    font-family: 'Open Sans';
+    font-size: 23px;
+
+    color: white;
+    text-align: left;
+}
+
+
+
+
+
 
 
