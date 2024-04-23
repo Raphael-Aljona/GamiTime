@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container-grid{
     width: 80%;
     max-width: 1400px;
@@ -238,7 +242,7 @@ h2{
     justify-content: space-between;
     align-items: center;
 
-    padding-top: 30px;
+    height: 700px;
 }
 
 #contatos h2 {
@@ -261,6 +265,8 @@ h2{
     color:black;
 
 }
+
+
 
 .input p {
     font-family: 'Open Sans';
@@ -287,7 +293,8 @@ h2{
 
 #contatos button {
     margin-top: 10px;
-    
+    margin-left: 150px;
+
     border: none;
     height: 60px;
     width: 50%;
@@ -309,3 +316,33 @@ h2{
     background-color:#2D0191;
 }
 
+/* Footer */
+
+footer {
+    height: 220px;
+
+    background-color: #22016F;
+}
+
+footer .container-grid {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+
+    width: 40%;
+}
+
+footer .redes-sociais a{
+    height: 80px;
+}
+
+#logo-footer {
+    height: 100px;
+}
