@@ -1,6 +1,4 @@
 :root {
-    --roxo-gamifica: #47208b;
-    --laranja-gamifica: #f06638;
     --roxo-time: #22016fcc;
 }
 
@@ -167,7 +165,7 @@ h2{
     font-size: 25px;
 
     text-align: left;
-    padding: 15px 0 15px 30px;
+    padding: 15px 30px 15px 30px;
     
 }
 
@@ -353,11 +351,10 @@ footer .redes-sociais img{
     }
 
     #inicial .texto-banner {
-        padding-left: 100px;
+        width: 40%;
     }
 
     #inicial p{
-        width: 400px;
         font-size: 30px;
     }
 
@@ -485,16 +482,24 @@ footer .redes-sociais img{
         width:50%;
 
         font-size: 20px;
-        text-indent: 10px;
 
         margin-left: 80px;
     }
 }
 
 @media screen and (max-width:980px) {
-    header img{
-        width: 300px
+    #inicial{
+        background-size: 45%;
     }
+
+    #inicial .texto-banner p{
+        font-size: 20px;
+    }
+
+    #sobre .container-grid{
+        width: 100%;
+    }
+
 
     #cases {
         height: 1300px;
@@ -519,5 +524,52 @@ footer .redes-sociais img{
 
     footer .redes-sociais img{
         height: 50px;
+    }
+}
+
+@media screen and (max-width:800px){
+    #inicial {
+        background-size: cover;
+    }
+
+    #inicial .container-grid{
+        justify-content: unset;
+    }
+
+    #inicial .texto-banner p{
+        margin: 0 auto;
+        width: 350px;
+        font-size: 17px
+    }
+
+    #inicial button{
+        width: 350px;
+    }
+    
+    #sobre .container-grid{
+        width: 100%;
+    }
+
+    #contatos .container-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    #contatos .img {
+        width: 100vh;
+    }
+
+    #contatos .img img{
+        height: 10vw;
+        width: 100%;
+        object-fit: cover;
+
+        margin-bottom: 50px;
+    }
+
+    #contatos button {
+        margin-left: 150px;
     }
 }
