@@ -3,7 +3,7 @@
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.container-grid{
+.container-grid {
     width: 80%;
     max-width: 1400px;
 
@@ -48,12 +48,12 @@ header img {
 }
 
 .menu a {
-    padding-top: 15px;  
+    padding-top: 15px;
 
     font-size: 23px;
     font-family: 'Open Sans';
 
-    color:white;
+    color: white;
     text-decoration: underline transparent;
 
     transition: text-decoration 500ms;
@@ -68,15 +68,16 @@ header img {
 .texto-banner {
     width: 500px;
 }
+
 #inicial {
     height: 100vh;
 
-    background-color: rgba(34, 1, 111, 0.80); 
-    background-image: linear-gradient(90deg, rgba(34, 1, 111, 0.8)0%, rgba(34, 1, 111, 0.8) 0%) ,url(img/background.svg);
-    background-repeat: no-repeat; 
+    background-color: rgba(34, 1, 111, 0.80);
+    background-image: linear-gradient(90deg, rgba(34, 1, 111, 0.8)0%, rgba(34, 1, 111, 0.8) 0%), url(img/background.svg);
+    background-repeat: no-repeat;
     background-size: 752px;
-    
-    
+
+
 }
 
 #inicial .container-grid {
@@ -85,11 +86,11 @@ header img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
 
-    
+
+
     border: none;
-    
+
     font-size: 40px;
     font-family: 'Anton';
 
@@ -100,14 +101,14 @@ header img {
 #inicial button {
 
     margin-top: 10px;
-    
+
     border: none;
     height: 60px;
     width: 100%;
     border-radius: 20px;
 
     background-color: #4603DE;
-    
+
     color: white;
     text-align: center;
     font-size: 30px;
@@ -118,15 +119,15 @@ header img {
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-#inicial button:hover{
-    background-color:#2D0191;
+#inicial button:hover {
+    background-color: #2D0191;
 }
 
 /* Seção Sobre */
 #sobre {
     background-color: #D8DBE2;
-    
-    
+
+
 }
 
 .bordas-sobre {
@@ -136,7 +137,7 @@ header img {
     height: 100%;
 }
 
-#sobre .container-grid{
+#sobre .container-grid {
 
     height: 720px;
     padding: 80px;
@@ -148,7 +149,7 @@ header img {
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 40px;
     font-family: 'Anton';
 
@@ -166,9 +167,12 @@ h2{
 
     text-align: left;
     padding: 15px 30px 15px 30px;
-    
+
 }
 
+#sobre .texto-resp {
+    display: none;
+}
 
 
 /* Seção Cases */
@@ -177,7 +181,7 @@ h2{
 #cases {
     background-color: var(--roxo-time);
     text-align: center;
-    
+
     height: 720px;
 }
 
@@ -186,7 +190,7 @@ h2{
     color: white;
 }
 
-.container-cards{
+.container-cards {
     width: 100%;
 
     display: flex;
@@ -207,12 +211,12 @@ h2{
     padding-bottom: 60px;
 }
 
-.card img{
+.card img {
     height: 350px;
     width: 300px;
 }
 
-.card p {  
+.card p {
     font-family: 'Open Sans';
     font-size: 23px;
 
@@ -224,13 +228,13 @@ h2{
 
 
 
-#contatos   {
+#contatos {
     height: 720px;
     background-color: #D8DBE2;
 
 }
 
-#contatos img{
+#contatos img {
     height: 500px;
 
 }
@@ -248,7 +252,7 @@ h2{
     align-items: left;
 }
 
-#contatos .contate-nos{
+#contatos .contate-nos {
     height: 600px;
     width: 600px;
 
@@ -259,22 +263,22 @@ h2{
 
     font-family: 'Open Sans';
     font-size: 23px;
-    
-    color:black;
+
+    color: black;
 
 }
 
-.input label{
+.input label {
     font-family: 'Open Sans';
     font-size: 23px;
-    
-    color:black;
+
+    color: black;
 }
 
 .input input {
     border-radius: 15px;
     border: #22016F solid 2px;
-    
+
     font-size: 23px;
     font-family: 'Open Sans';
 
@@ -282,9 +286,9 @@ h2{
     width: 100%;
 
     text-indent: 12px;
-    
-   background-color: transparent;
-   color: black;
+
+    background-color: transparent;
+    color: black;
 }
 
 #contatos button {
@@ -297,7 +301,7 @@ h2{
     border-radius: 20px;
 
     background-color: #4603DE;
-    
+
     color: white;
     text-align: center;
     font-size: 25px;
@@ -308,8 +312,8 @@ h2{
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-#contatos button:hover{
-    background-color:#2D0191;
+#contatos button:hover {
+    background-color: #2D0191;
 }
 
 /* Footer */
@@ -335,7 +339,7 @@ footer .redes-sociais {
     width: 40%;
 }
 
-footer .redes-sociais img{
+footer .redes-sociais img {
     height: 80px;
 }
 
@@ -347,14 +351,14 @@ footer .redes-sociais img{
     #inicial {
         height: 700px;
 
-        
+
     }
 
     #inicial .texto-banner {
         width: 40%;
     }
 
-    #inicial p{
+    #inicial p {
         font-size: 30px;
     }
 
@@ -367,19 +371,20 @@ footer .redes-sociais img{
 
         font-size: 20px;
     }
-    
+
 }
 
-@media screen and (max-width:1300px){
+@media screen and (max-width:1300px) {
     #header {
-        position:relative;
-    }
-    header{
         position: relative;
     }
 
-    header button{
-        width:50px;
+    header {
+        position: relative;
+    }
+
+    header button {
+        width: 50px;
 
         display: unset;
 
@@ -387,7 +392,7 @@ footer .redes-sociais img{
         border: none;
     }
 
-    header svg{
+    header svg {
         fill: white;
     }
 
@@ -417,21 +422,22 @@ footer .redes-sociais img{
         background-size: 50%;
     }
 
-    #cases .card{
+    #cases .card {
         height: 300px;
         width: 250px;
     }
 
-    #cases .card img{
+    #cases .card img {
         height: 250px;
         width: 250px;
     }
 
     #contatos .contate-nos {
         margin: 40px;
+        width: unset;
     }
 
-    
+
 }
 
 @media screen and (max-width:1080px) {
@@ -451,18 +457,18 @@ footer .redes-sociais img{
     }
 
     h2 {
-        font-size:25px;
+        font-size: 25px;
     }
 
-    #sobre p{
+    #sobre p {
         font-size: 20px;
     }
 
-    #cases p{
+    #cases p {
         font-size: 20px;
     }
 
-    #contatos p{
+    #contatos p {
         font-size: 20px;
     }
 
@@ -471,7 +477,7 @@ footer .redes-sociais img{
     }
 
     .input input {
-        height:30px;
+        height: 30px;
 
         font-size: 20px;
         text-indent: 10px;
@@ -479,7 +485,7 @@ footer .redes-sociais img{
 
     #contatos button {
         height: 40px;
-        width:50%;
+        width: 50%;
 
         font-size: 20px;
 
@@ -488,32 +494,36 @@ footer .redes-sociais img{
 }
 
 @media screen and (max-width:980px) {
-    #inicial{
-        background-size: 45%;
+    #inicial {
+        background-size: cover;
     }
 
-    #inicial .texto-banner p{
+    #inicial .texto-banner p {
         font-size: 20px;
     }
 
-    #sobre .container-grid{
+    #inicial .container-grid {
+        justify-content: unset;
+    }
+
+    #sobre .container-grid {
         width: 100%;
     }
 
 
     #cases {
-        height: 1300px;
+        height: 1400px;
     }
 
-    #cases .container-cards{
+    #cases .container-cards {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        gap: 30px;
+        gap: 70px;
     }
 
-    #contatos img{
+    #contatos img {
         height: 300px;
         width: 300px;
     }
@@ -522,54 +532,213 @@ footer .redes-sociais img{
         width: 300px;
     }
 
-    footer .redes-sociais img{
+    footer .redes-sociais img {
         height: 50px;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     #inicial {
         background-size: cover;
     }
 
-    #inicial .container-grid{
+    #inicial .container-grid {
         justify-content: unset;
     }
 
-    #inicial .texto-banner p{
+    #inicial .texto-banner p {
         margin: 0 auto;
         width: 350px;
         font-size: 17px
     }
 
-    #inicial button{
+    #inicial button {
         width: 350px;
     }
-    
-    #sobre .container-grid{
+
+    #sobre .container-grid {
         width: 100%;
     }
 
-    #contatos .container-grid{
+    #sobre p {
+        font-size: 18px;
+    }
+
+    #cases p {
+        font-size: 18px;
+    }
+
+    #contatos .container-grid {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        
+
+    }
+
+    #contatos p {
+        font-size: 18px;
+    }
+
+    #contatos label {
+        font-size: 18px;
+    }
+
+    #contatos input {
+        font-size: 18px;
     }
 
     #contatos .img {
-        width: 100vh;
+        width: 100vw;
     }
 
-    #contatos .img img{
+    #contatos .img img {
         height: 10vw;
-        width: 100%;
+        width: 100vw;
         object-fit: cover;
 
         margin-bottom: 50px;
     }
 
     #contatos button {
-        margin-left: 150px;
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    header img {
+        width: 230px;
+    }
+
+    /* .bordas-sobre p {
+        visibility: hidden;
+        position: relative;
+    }
+
+    .bordas-sobre p::after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "A GamiTime é líder em gamificação empresarial, oferecendo soluções personalizadas que transformam o ambiente de trabalho. Com inteligência artificial e design de jogos, desenvolvemos desde treinamentos interativos até sistemas de recompensa, promovendo engajamento e eficiência para nossos clientes.";
+    } */
+
+    #sobre {
+        height: 900px;
+    }
+
+    .bordas-sobre{
+        border: none;
+    }
+
+
+    footer .container-grid{
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    footer .redes-sociais {
+        margin-top: 30px;
+
+        width: 50%;
+    }
+
+    footer .redes-sociais img {
+        height: 40px;
+    }
+    
+
+
+    #logo-footer {
+        padding-top: 30px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    h2 {
+        font-size: 22px;
+    }
+
+    #inicial .texto-banner p{
+        width: 250px;
+    }
+
+    #inicial .texto-banner button{
+        width: 250px;
+
+        font-size:16px;
+    }
+
+    #sobre {
+        height: 600px;
+    }
+
+    #sobre .container-grid{
+        padding: 45px; 
+    }
+
+    #sobre .texto-resp{
+        display: unset;
+
+        display: flex;
+        text-align: left;
+        padding: 15px 30px 15px 30px;
+
+    }
+
+    #sobre .texto-padrao {
+        display: none;
+    }
+
+    #cases {
+        height: 1400px;
+    }
+
+
+    footer .redes-sociais img{
+        justify-content: space-between;
+    }
+
+    #contatos button {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:395px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    #contatos h2{
+        width: 120%;
+    }
+
+    #sobre .container-grid{
+        padding: 40px;
+    }
+
+    footer .redes-sociais {
+        width: 70%;
+    }
+
+    #logo-footer {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    
+    #sobre {
+        height: 700px;
+    }
+
+    #contatos button {
+        margin-left: 40px;
+    }
+
+    #contatos h2{
+        width: 130%;
     }
 }
