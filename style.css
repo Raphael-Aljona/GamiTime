@@ -692,7 +692,21 @@ footer .redes-sociais img {
     }
 
     #cases {
-        height: 1400px;
+        height: 600px;
+    }
+
+    #cases .container-cards {
+        height: 450px;
+
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 30px;
+        overflow-x: auto;
+    }
+
+    #contatos .input {
+        padding-bottom: 15px;
+        padding-top: 10px;
     }
 
 
@@ -728,7 +742,7 @@ footer .redes-sociais img {
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:350px) {   
     
     #sobre {
         height: 700px;
