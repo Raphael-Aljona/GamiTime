@@ -610,19 +610,6 @@ footer .redes-sociais img {
         width: 230px;
     }
 
-    /* .bordas-sobre p {
-        visibility: hidden;
-        position: relative;
-    }
-
-    .bordas-sobre p::after {
-        visibility: visible;
-        position: absolute;
-        top: 0;
-        left: 0;
-        content: "A GamiTime é líder em gamificação empresarial, oferecendo soluções personalizadas que transformam o ambiente de trabalho. Com inteligência artificial e design de jogos, desenvolvemos desde treinamentos interativos até sistemas de recompensa, promovendo engajamento e eficiência para nossos clientes.";
-    } */
-
     #sobre {
         height: 900px;
     }
@@ -695,6 +682,10 @@ footer .redes-sociais img {
         height: 600px;
     }
 
+    #cases .container-grid {
+        width: 100%;
+    }
+
     #cases .container-cards {
         height: 450px;
 
@@ -704,9 +695,15 @@ footer .redes-sociais img {
         overflow-x: auto;
     }
 
+    #cases .card:first-child {
+        margin-left: 20px;
+    }
+    #cases .card:last-child {
+        margin-right: 20px;
+    }
+
     #contatos .input {
-        padding-bottom: 15px;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
 
@@ -725,10 +722,6 @@ footer .redes-sociais img {
         font-size: 20px;
     }
 
-    #contatos h2{
-        width: 120%;
-    }
-
     #sobre .container-grid{
         padding: 40px;
     }
@@ -742,17 +735,27 @@ footer .redes-sociais img {
     }
 }
 
-@media screen and (max-width:350px) {   
+@media screen and (max-width:360px) {   
+
+
     
     #sobre {
-        height: 700px;
+        height: 500px;
+    }
+    #sobre .container-grid{
+        display: unset;
+    }
+
+    #contatos .container-grid {
+        display: unset;
     }
 
     #contatos button {
-        margin-left: 40px;
+        margin-left: 60px;
+    }
+    #contatos {
+        height: 750px;
     }
 
-    #contatos h2{
-        width: 130%;
-    }
+   
 }
