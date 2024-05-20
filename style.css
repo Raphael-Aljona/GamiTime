@@ -199,6 +199,8 @@ h2 {
 
     display: flex;
     justify-content: space-between;
+
+    position: relative;
 }
 
 .card {

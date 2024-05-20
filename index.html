@@ -117,19 +117,22 @@
             <div class="contate-nos">
                 <h2>Faça um orçamento!</h2>
                 <p>Está interessado em obter um orçamento personalizado para nossos serviços? Queremos facilitar isso para você. Envie suas perguntas, feedback ou consultas preenchendo o formulário abaixo.</p>
-                <div class="input">
-                    <label for="1">Nome</label>
-                    <input id="1" type="text" placeholder="Escreva aqui...">
-                </div>
-                <div class="input">
-                    <label for="2">Email</label>
-                    <input id="2" type="text" placeholder="Escreva aqui...">
-                </div>
-                <div class="input">
-                    <label for="3">Telefone/Celular</label>
-                    <input id="3" type="text" placeholder="Escreva aqui...">
-                </div> 
-                <button>Enviar</button>
+                <form onsubmit="solicitarOrcamento(event)">
+                    <div class="input">
+                        <label for="um">Nome</label>
+                        <input required id="um" type="text" placeholder="Escreva aqui...">
+                    </div>
+                    <div class="input">
+                        <label for="dois">Email</label>
+                        <input required id="dois" type="email" placeholder="Escreva aqui...">
+                    </div>
+                    <div class="input">
+                        <label for="tres">Telefone/Celular</label>
+                        <input required id="tres" type="text" placeholder="Escreva aqui...">
+                    </div> 
+                    <button type="submit">Enviar</button>
+
+                </form>
             </div>
         </div>
     </section>

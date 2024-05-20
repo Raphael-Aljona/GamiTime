@@ -34,3 +34,43 @@ window.onresize = () => {
     iconeBarras.style.display = "none"
 }
 
+
+// Forms
+
+const solicitarOrcamento = (event) => {
+    let valorNome = document.getElementById("um").value
+    let valorEmail = document.getElementById("dois").value
+    let valorCelular = document.getElementById("tres").value
+
+    let formsAPI = {
+        nome: valorNome,
+        email: valorEmail,
+        celular: valorCelular
+    }
+    fetch ("http://localhost:3000/solicitacoes", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        }, 
+        body: JSON.stringify(formsAPI)
+    })
+    .then (resposta => {
+        console.log (resposta)
+        // Limpar os campos
+        document.querySelector ("#contatos form").reset()
+
+        // Mostrar alert com msg de sucesso
+        alert("Solicitação cadastrada")
+    })
+
+    .catch (erro => {console.error(erro)
+
+        console.error(erro)
+        alert("Erro desconhecido")
+
+    })
+
+    event.preventDefault()
+
+
+    }
